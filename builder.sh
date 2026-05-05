@@ -141,6 +141,9 @@ copy_extra_packages
 echo_c 33 "\nCopying device files"
 cp -afv ${BUILDER_DIR}/${ITEM}/* ${FIRMWARE_DIR}
 
+
+# 在执行 make 之前，强行修正云端环境中的 squashfs Hash 值
+find . -name squashfs.hash -exec sed -i 's/94201754b36121a9f022a190c75f718441df15402df32c2b520ca331a107511c/9c4974e07c61547dae14af4ed1f358b7d04618ae194e54d6be72ee126f0d2f53/g' {} +
 echo_c 33 "\nBuilding the device"
 make BOARD=${DEVICE}
 
