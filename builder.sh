@@ -143,8 +143,9 @@ cp -afv ${BUILDER_DIR}/${ITEM}/* ${FIRMWARE_DIR}
 
 
 echo_c 33 "\nBuilding the device"
-make BOARD=${DEVICE}
+#make BOARD=${DEVICE}
 
+make BOARD=${DEVICE} BR2_DOWNLOAD_FORCE_CHECK_HASHES=n BR2_WGET_TIMEOUT=30 BR2_DOWNLOAD_MAX_RETRIES=3
 
 copy_to_archive
 echo_c 35 "\nDone"
