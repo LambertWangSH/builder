@@ -38,7 +38,9 @@ echo viewer:123456 | chpasswd
 #
 if [ -f /etc/majestic.yaml ]; then
     # 确保配置文件中音频被关闭
-    sed -i '/^audio:/,/enabled:/ s/enabled: .*/enabled: false/' /etc/majestic.yaml
+   # sed -i '/^audio:/,/enabled:/ s/enabled: .*/enabled: false/' /etc/majestic.yaml
+    sed -i '/^audio:/,/^[a-z]/ s/[[:space:]]*enabled:.*/  enabled: false/' /etc/majestic.yaml
+
     echo "Audio disabled in majestic.yaml"
 fi
 
