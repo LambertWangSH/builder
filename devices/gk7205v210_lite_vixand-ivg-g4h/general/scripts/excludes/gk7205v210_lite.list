@@ -1,8 +1,7 @@
-/etc/sensors/60fps/720p_imx307_i2c_2l.ini
-/etc/sensors/WDR/5M_imx335.ini
-/etc/sensors/WDR/imx335_i2c_4M.ini
+
+
 /etc/sensors/4l_sc223a_i2c_1080p.ini
-/etc/sensors/5M_imx335.ini
+
 /etc/sensors/bt656_720p.ini
 /etc/sensors/gc1054_i2c_720p.ini
 /etc/sensors/gc2053_i2c_1080p.ini
@@ -10,7 +9,7 @@
 /etc/sensors/gc4653_i2c_4M.ini
 /etc/sensors/gc5603_i2c_5M.ini
 /etc/sensors/imx307_i2c_2l_1080p.ini
-/etc/sensors/imx335_i2c_4M.ini
+
 /etc/sensors/jxf23_i2c_1080p.ini
 /etc/sensors/jxf23_i2c_dc_1080p.ini
 /etc/sensors/os02g10_i2c_1080p.ini
@@ -18,11 +17,11 @@
 /etc/sensors/sc2232h_i2c_1080p.ini
 /etc/sensors/sc2239_i2c_1080p.ini
 /etc/sensors/sc223a_i2c_1080p.ini
-/etc/sensors/sc2335_i2c_1080p.ini
+
 /etc/sensors/smtsec_imx307_i2c_4l_1080p.ini
 /etc/sensors/jxh63_i2c_720p.ini
 #
-/etc/sensors/iq/imx335.ini
+
 /etc/sensors/iq/sc2232.ini
 #
 /usr/lib/sensors/libsns_bt656.so
@@ -32,7 +31,7 @@
 /usr/lib/sensors/libsns_gc4653_2l.so
 /usr/lib/sensors/libsns_imx307.so
 /usr/lib/sensors/libsns_imx307_2l.so
-/usr/lib/sensors/libsns_imx335.so
+
 /usr/lib/sensors/libsns_sc200ai.so
 /usr/lib/sensors/libsns_sc2335.so
 /usr/lib/sensors/libsns_sc2232h.so
@@ -40,7 +39,7 @@
 /usr/lib/sensors/libsns_sc223a.so
 /usr/lib/sensors/libsns_sc223a_4l.so
 /usr/lib/sensors/libsns_sc3235.so
-/usr/lib/sensors/libsns_sc3335.so
+
 /usr/lib/sensors/libsns_h63.so
 #
 /lib/modules/4.9.37/kernel/drivers/i2c/busses/i2c-tiny-usb.ko
